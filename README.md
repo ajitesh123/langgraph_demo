@@ -47,6 +47,13 @@ python generate_job_description.py
 
 By default, the script generates a job description for a "Software Engineer" at "Arche AI - Coding Workflow Automation". You can modify the `run_graph` function call in `generate_job_description.py` to generate descriptions for different roles and companies.
 
+## Streamlit App
+
+To run the Streamlit app, use the following command:
+```bash
+streamlit run streamlit_app.py
+```
+
 ### Example
 
 To generate a job description for a "Software Engineer" at "Google", you can modify the `run_graph` function call in `generate_job_description.py` as follows:
